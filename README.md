@@ -57,6 +57,21 @@ This project provided experience in evaluating system feasibility, integrating s
 
 ---
 
+## System WOrkflow
+
+![System Workflow](system-flowchart.png)
+
+### Workflow Explanation
+
+1. Initialize ESP8266 and sensors  
+2. Connect device to WiFi and MQTT  
+3. Read rain, temperature, and humidity data  
+4. Detect rain conditions  
+5. Activate actuator and indicators  
+6. Send telemetry data to ThingsBoard  
+7. Display monitoring dashboard  
+8. Repeat continuously
+
 ## Learning Outcomes
 
 * Sensor Integration
